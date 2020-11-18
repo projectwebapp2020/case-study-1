@@ -61,8 +61,8 @@ echo "\n";
             );
 
 //variables
-$qty   = $_POST['itemQuantity'];
-$list = $_POST['itemChecked'];
+$qty   = $_GET['itemQuantity'];
+$list = $_GET['itemChecked'];
 $q = count($qty);
 $n = count($list);
 
