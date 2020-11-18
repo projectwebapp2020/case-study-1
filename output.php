@@ -116,9 +116,9 @@ header('Content-Type: text/plain');
         }
 
       $s = array_sum($subtotal);
-      $gst = ($s * 0.06);
-      $pay = $gst + $s;
-      echo "\nSubtotal : RM" . $s ;
+      $gst = round($s * 0.06, 2);
+      $pay = round($gst + $s, 2);
+      echo "\nSubtotal : RM" . round($s, 2) ;
       echo "\n";
       echo "\nGST 6%: RM" . $gst ;
       echo "\n";
