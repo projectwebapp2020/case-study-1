@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sale System</title>
+    <style>
+    table {
+    font-family: sans-serif, arial;
+    border-collapse: collapse;
+    width: 100%;
+    }
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+    </style>
+
+  </head>
+  <h1>Grocery Store</h1>
+  <body>
+    <form action="output.php" method="post">
+    <table>
+             <tr>
+              <th>Item Name</th>
+              <th>Price</th>
+              <th>Discount</th>
+              <th>Quantity</th>
+              <th>Select</th>
+             </tr>
+             <tr>
+              <th>Maggi Kari</th>
+              <th>4.50</th>
+              <th>0</th>
+              <th><input type="text" name="itemQuantity[]" value="0"></th>
+              <th><input type="checkbox" name="itemChecked[]" value="Maggi Kari"></th>
+             </tr>
+             <tr>
+              <th>Milo 3 in 1</th>
+              <th>12.70</th>
+              <th>0.20</th>
+              <th><input type="text" name="itemQuantity[]" value="0"></th>
+              <th><input type="checkbox" name="itemChecked[]" value="Milo 3 in 1"></th>
+             </tr>
+             <tr>
+              <th>Nescafe Latte Caramel</th>
+              <th>17.60</th>
+              <th>0.50</th>
+              <th><input type="text" name="itemQuantity[]" value="0"></th>
+              <th><input type="checkbox" name="itemChecked[]" value="Nescafe Latte Caramel"></th>
+             </tr>
+             <tr>
+              <th>30 eggs carton</th>
+              <th>8.90</th>
+              <th>0</th>
+              <th><input type="text" name="itemQuantity[]" value="0"></th>
+              <th><input type="checkbox" name="itemChecked[]" value="30 eggs carton"></th>
+             </tr>
+            <tr>
+              <th>Nestum Honey</th>
+              <th>8.70</th>
+              <th>0.30</th>
+              <th><input type="text" name="itemQuantity[]" value="0"></th>
+              <th><input type="checkbox" name="itemChecked[]" value="Nestum Honey"></th>
+             </tr>
+             <tr>
+              <th>Axion Dishsoap</th>
+              <th>6.10</th>
+              <th>0</th>
+              <th><input type="text" name="itemQuantity[]" value="0"></th>
+              <th><input type="checkbox" name="itemChecked[]" value="Axion Dishsoap"></th>
+             </tr>
+             <tr>
+              <th>Condensed Milk</th>
+              <th>3.20</th>
+              <th>0</th>
+              <th><input type="text" name="itemQuantity[]" value="0 "></th>
+              <th><input type="checkbox" name="itemChecked[]" value="Condensed Milk"></th>
+             </tr>
+             <tr>
+              <th>Baby Carrot</th>
+              <th>3.70</th>
+              <th>0.10</th>
+              <th><input type="text" name="itemQuantity[]" value="0"></th>
+              <th><input type="checkbox" name="itemChecked[]" value="Baby Carrot"></th>
+             </tr>
+             <tr>
+              <th>Mineral Water</th>
+              <th>1.20</th>
+              <th>0</th>
+              <th><input type="text" name="itemQuantity[]" value="0"></th>
+              <th><input type="checkbox" name="itemChecked[]" value="Mineral Water"></th>
+             </tr>
+             <tr>
+              <th>Coca-cola 250ml</th>
+              <th>1</th>
+              <th>0</th>
+              <th><input type="text" name="itemQuantity[]" value="0"></th>
+              <th><input type="checkbox" name="itemChecked[]" value="Coca-cola 250ml"> </th>
+            </tr>
+        </table>
+        <input type="submit" name="submit" value="Submit"/>
+
+     </form>
+  </body>
+</html>
